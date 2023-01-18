@@ -46,7 +46,7 @@
     height: 550px;
     border: 3px solid black;
     margin: auto;
-    background-image: url(/maquetaFrontEnd/assents/img/fotoBaner1.jpeg);
+    background-image: url(/angular/maquetaFrontEnd/assents/img/fotoBaner1.jpeg);
     background-size: 100%;
     margin-top: -7%;
 }/* img banner */
