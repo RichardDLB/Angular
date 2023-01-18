@@ -1,0 +1,346 @@
+/* SECTION NAVBAR */
+
+/* network background */
+.list-group{
+    --bs-list-group-bg: transparent;
+}/* network background */
+
+/* social media colors */
+.fa-2x.fa-brands.fa-github:hover{
+    --bs-text-opacity: 1;
+    color: rgb(171, 146, 3)!important;
+    margin-top: -1rem;
+}
+.fa-2x.fa-brands.fa-linkedin:hover{
+    --bs-text-opacity: 1;
+    color: rgb(171, 146, 3)!important;
+    margin-top: -1rem;
+}
+.fa-solid.fa-user.fa-2xl:hover{    
+    --bs-text-opacity: 1;
+    color: rgb(171, 146, 3)!important;
+    margin-top: -1rem;
+}/* social media colors */
+
+/* logo user */
+.logoUser{
+      padding-top: 0.6rem; 
+}/* logo user */
+
+/* SECTION NAVBAR */
+
+
+
+/* SECTION BANER */
+
+/* pencil edit baner img */
+.pencilEditImgBanner{
+    margin-top: -70%;    
+    padding-left: 79rem;
+
+}/* pencil edit baner img */
+
+/* img banner */
+.banner{
+    width: 100%;
+    height: 550px;
+    border: 3px solid black;
+    margin: auto;
+    background-image: url(/maquetaFrontEnd/assents/img/fotoBaner1.jpeg);
+    background-size: 100%;
+    margin-top: -7%;
+}/* img banner */
+
+/* text banner */
+.intro{
+    margin-top: -29%;
+    font-size: 300%;    
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
+}/*text banner */
+
+/* SECTION BANER */
+
+
+
+/* PRESENTATION SECTION */
+
+/* presentation sectio */
+.presentation{
+    padding-top: 11%
+}/* presentation sectio */
+
+/* text presentation section */
+.textPresentation{        
+    margin-right: -23%;
+    margin-top: -38%;    
+}/* text presentation section */
+
+/* pencil edit text presentation */
+.pencilEditPresentationtext{ 
+    margin-right: 2.5rem;         
+    margin-top: -21%;
+    float: right;
+}/* pencil edit text presentation */
+
+/* xmark presentation section */
+.xMarkPresentationSection{
+    float: right;
+    margin-right: 1%;
+    margin-top: -21%;
+}/* xmark presentation section */
+
+/* profile photo presentation section */
+.profilePhoto{
+    width: 25%;
+    margin-top: -10%;
+    margin-left: 3%;
+}/* profile photo presentation section*/
+
+/* pencil edit profile photo */
+.pencilEditProfilePhoto{
+    margin-left: 27%;
+    margin-top: -36%;
+    
+}/* pencil edit profile photo */
+
+/* pencil edit profile photo text */
+.pencilEditProfilePhototext{
+    margin-left: 22%;
+    margin-top: -19%;
+}/* pencil edit profile photo text */
+
+/* PRESENTATION SECTION */
+
+
+
+
+/* EXPERIENCE SECTION */
+
+/* experience section */
+.experience{
+      padding-top: 7rem;
+}/* experience section */
+
+/* experience text */
+.experienceText{
+    text-align: right;
+    margin-top: -1rem;    
+}/* experience text */
+
+/* xmark experience section modal */
+.xMarkExperienceSection{ 
+    float: right;
+    margin-top: -18.5%;
+    margin-right: 4%;      
+}/* xmark experience section modal */
+
+/* logo Ntn24  */
+.logoNtn24{    
+    width: 78%; 
+    margin-top: -7%;
+    margin-left: 39%    
+}/* logo Ntn24  */
+
+/* img logo Ntn24 */
+.imgLogoNtn24{
+    width: 100%;
+}/* img logo Ntn24 */
+
+/* pencil edit logo Ntn24 */
+.pencilEditLogoNtn24{     
+    margin-top: -62%; 
+    margin-left: 114%; 
+}/* pencil edit logo Ntn24 */
+
+/* web editor text */
+.webEditorText{ 
+    text-align: right;   
+    margin-top: -3%;     
+    margin-right: 16%;
+}/* web editor text */
+
+/* pencil edit text company modal */
+.pencilEditTextCompanyModal{ 
+    float: right;     
+    margin-right: 3rem;
+    margin-top: -6rem;       
+}/* pencil edit text company modal */
+
+/* EXPERIENCE SECTION */
+
+
+
+
+/* EDUCATION SECTION */
+
+/* estilo texto educación seccion educación */
+.educationText{   
+    margin-top: 37%;
+    margin-left: 56%;
+}/* estilo texto educación seccion educación */
+
+/* image logo se-programar */
+.imgLogoSeProgramar{
+    width:100%;   
+}/* image logo se-programar */
+
+/* logo se-programar */
+.logoSeProgramar{
+    margin-top: 37%;
+    margin-left: 36%;
+    width: 85%;
+}/* logo se-programar */
+
+/* pencil edit education text */
+.pencilEditEducationtext{ 
+    margin-right: 3rem;         
+    margin-top: -30%;
+    float: right;
+}/* pencil edit education text */
+
+/* xmark education section */
+.xMarkEducationSection{
+    float: right;
+    margin-right: 1.6%;
+    margin-top: -30%;
+}/* xmark education section */
+
+/* image logo university of quindio */
+.imgLogoUniversity{
+    width: 100%;       
+}/* image logo university of quindio */
+
+/* logo university of quindio */
+.logoUniversity{
+    width: 45%;
+    margin-left: 66%;
+    margin-top: 37%;
+}/* logo university of quindio */
+
+/* texto certificate se-programar */
+.SeProgramarText{
+    margin-top: 32%;    
+    text-align: right;
+    margin-right: 17%;
+}/* texto certificate se-programar */
+
+/* text university */
+.comunicatorText{
+    margin-top: 29%;
+    text-align: right;
+    margin-right: 17%;
+}/* text university */
+
+/* pencil edit education text2 */
+.pencilEditEducationtext2{ 
+    float: right;
+    margin-top: -13.5%;
+    margin-right: 4%;
+}/* pencil edit education text2 */
+
+/* xmark2 education section */
+.xMark2EducationSection{
+    float: right;
+    margin-top: -13.5%;
+    margin-right: 1.8%;
+}/* xmark2 education section */
+
+/* EDUCATION SECTION */
+
+
+
+/* SECCIÓN SKILLS */
+
+/* sección Hard & Soft Skills */
+.skills{
+    margin-top: -2rem;
+    margin-right: -7rem;
+}/* sección Hard & Soft Skills */
+
+/* texto skills seccion skills */
+.textoSkills{
+    text-align: right;
+    margin-top: 10rem;
+    margin-right: -4rem;
+}/* texto skills seccion skills */
+
+/* SECCION SKILLS */
+
+
+/* SECCIÓN PROYECTOS */
+
+/* sección proyectos */
+.proyectos{
+    text-align: right;
+}/* sección proyectos */
+
+/* texto proyectos sección proyectos */
+.textoProyectos{    
+    margin-top: 7rem;
+    margin-right: -10rem;
+}/* texto proyectos sección proyectos */
+
+/* texto proyecto tateti */
+.textoTateti1{
+    text-align: left;
+    color: white;
+    padding-top: 17rem;
+    margin-left: -15rem;
+}/* texto proyecto tateti */
+
+/* texto proyecto tateti texto2 */
+.textoTateti2{
+    text-align: left;
+    color: white;
+    margin-top: -5.7rem;    
+}/* texto proyecto tateti texto2 */
+
+/* texto proyecto tateti texto3 */
+.textoTateti3{
+    padding-top: 17.5rem;
+    text-align: left;
+    color: white;
+    
+  
+}/* texto proyecto tateti texto3 */
+
+/* image gallery */
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+#galeria.col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+#galeria img:hover{
+    border: 5px solid black;
+}/* image gallery */
+
+/* SECCIÓN PROYECTOS */
+
+
+/* SECCION FOOTER */
+
+/* footer */
+.footeralfondo{
+    margin-top: 10%;
+}/* footer */
+
+/* SECCION FOOTER */
+
+
+/* STILOS PÁGINA LOGIN */
+
+/* espacio del formulario 100% */
+.login{
+    height: 82vh;
+}/* espacio del formulario 100% */
+
+/* espacio formulario */
+.formulariologin{
+    margin-top: 15%;
+}/* espacio formulario */
+
+/* STILOS PÁGINA LOGIN */
