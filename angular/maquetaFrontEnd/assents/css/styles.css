@@ -176,8 +176,8 @@
 
 /* estilo texto educación seccion educación */
 .educationText{   
-    margin-top: 37%;
-    margin-left: 56%;
+    text-align: right;
+    margin-top: 20%;
 }/* estilo texto educación seccion educación */
 
 /* image logo se-programar */
@@ -187,23 +187,23 @@
 
 /* logo se-programar */
 .logoSeProgramar{
-    margin-top: 37%;
-    margin-left: 36%;
-    width: 85%;
+    margin-top: 6%;
+    margin-left: 21%;
+    width: 70%;
 }/* logo se-programar */
 
 /* pencil edit section education */
 .pencilEditEducationSection{ 
-    margin-right: 3rem;         
-    margin-top: -30%;
+    margin-right: 6%;         
+    margin-top: -25%;
     float: right;
 }/* pencil edit  section education  */
 
 /* xmark education section */
 .xMarkEducationSection{
     float: right;
-    margin-right: 1.6%;
-    margin-top: -30%;
+    margin-right: 3.5%;
+    margin-top: -23.5%;
 }/* xmark education section */
 
 /* image logo university of quindio */
@@ -213,14 +213,14 @@
 
 /* logo university of quindio */
 .logoUniversity{
-    width: 45%;
-    margin-left: 66%;
-    margin-top: 37%;
+    width: 28%;
+    margin-left: 56%;
+    margin-top: 16%;
 }/* logo university of quindio */
 
 /* texto certificate se-programar */
 .SeProgramarText{
-    margin-top: 32%;    
+    margin-top: 21%;    
     text-align: right;
     margin-right: 17%;
 }/* texto certificate se-programar */
@@ -235,15 +235,15 @@
 /* pencil edit education text2 */
 .pencilEditEducationtext2{ 
     float: right;
-    margin-top: -13.5%;
-    margin-right: 4%;
+    margin-top: -11.5%;
+    margin-right: 2.5%;
 }/* pencil edit education text2 */
 
 /* xmark2 education section */
 .xMark2EducationSection{
     float: right;
-    margin-top: -13.5%;
-    margin-right: 1.8%;
+    margin-top: -11.5%;
+    margin-right: 1%;
 }/* xmark2 education section */
 
 /* EDUCATION SECTION */
@@ -308,6 +308,7 @@
 /* footer */
 .footeralfondo{
     margin-top: 10%;
+    text-align: center;
 }/* footer */
 
 /* SECCION FOOTER */
