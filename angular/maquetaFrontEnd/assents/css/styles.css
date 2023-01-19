@@ -49,6 +49,7 @@
     background-image: url(/angular/maquetaFrontEnd/assents/img/fotoBaner1.jpeg);
     background-size: 100%;
     margin-top: -7%;
+    
 }/* img banner */
 
 /* text banner */
@@ -221,7 +222,7 @@
 /* texto certificate se-programar */
 .SeProgramarText{
     margin-top: 21%;    
-    text-align: right;
+    text-align: center;
     margin-right: 17%;
 }/* texto certificate se-programar */
 
@@ -254,36 +255,35 @@
 
 /* sección Hard & Soft Skills */
 .skills{
-    margin-top: -2rem;
-    margin-right: -7rem;
+    margin-top: 0%;    
 }/* sección Hard & Soft Skills */
 
-/* texto skills seccion skills */
+/* texto skills section skills */
 .textoSkills{
-    text-align: right;
+    text-align: left;
     margin-top: 10rem;   
-}/* texto skills seccion skills */
+}/* texto skills section skills */
 
 /* SECCION SKILLS */
 
 
 /* SECCIÓN PROYECTOS */
 
-/* sección proyectos */
-.proyectos{
-    text-align: right;
-}/* sección proyectos */
+/* section projects */
+.projects{
+margin-top: 10%;
+}/* section projects */
+
 
 /* text projects */
 .textProjects{   
     text-align: left; 
-    margin-top: 12%;
-    margin-left: 18%;
+    margin-top: 12%;    
 }/* text projects */
 
 .textDescription{
     text-align: left; 
-    margin-top: 6%;
+    margin-top: 8%;
     margin-left: 5.3%;     
 }
 
