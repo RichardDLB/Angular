@@ -175,10 +175,14 @@
 
 /* EDUCATION SECTION */
 
+.education{
+    margin-top: 6%;
+}
+
 /* estilo texto educación seccion educación */
 .educationText{   
-    text-align: right;
-    margin-top: 20%;
+    text-align: right; 
+   margin-right: -2%;  
 }/* estilo texto educación seccion educación */
 
 /* image logo se-programar */
@@ -188,63 +192,58 @@
 
 /* logo se-programar */
 .logoSeProgramar{
-    margin-top: 6%;
-    margin-left: 21%;
-    width: 70%;
+    width: 80%;    
+    float: right;
 }/* logo se-programar */
 
 /* pencil edit section education */
-.pencilEditEducationSection{ 
-    margin-right: 6%;         
-    margin-top: -25%;
-    float: right;
+.pencilEditEducationSection{     
+    
 }/* pencil edit  section education  */
 
 /* xmark education section */
 .xMarkEducationSection{
-    float: right;
-    margin-right: 3.5%;
-    margin-top: -23.5%;
+    
 }/* xmark education section */
 
 /* image logo university of quindio */
 .imgLogoUniversity{
-    width: 100%;       
+    width: 100%;   
+    margin: 0%;
+    background-color: black;    
 }/* image logo university of quindio */
 
 /* logo university of quindio */
 .logoUniversity{
-    width: 28%;
-    margin-left: 56%;
-    margin-top: 16%;
+    width: 40%;
+    margin-top: 36%;
+    float: right;
+    
 }/* logo university of quindio */
 
 /* texto certificate se-programar */
 .SeProgramarText{
-    margin-top: 21%;    
-    text-align: center;
-    margin-right: 17%;
+    text-align: right;    
 }/* texto certificate se-programar */
 
 /* text university */
 .comunicatorText{
-    margin-top: 29%;
+    margin-top: 32%;
     text-align: right;
-    margin-right: 17%;
+    
+    
 }/* text university */
 
 /* pencil edit education text2 */
-.pencilEditEducationtext2{ 
-    float: right;
-    margin-top: -11.5%;
-    margin-right: 2.5%;
+.pencilEditEducationtext2{
+    margin-top: 60%;   
+    
 }/* pencil edit education text2 */
 
 /* xmark2 education section */
 .xMark2EducationSection{
-    float: right;
-    margin-top: -11.5%;
-    margin-right: 1%;
+     
+
 }/* xmark2 education section */
 
 /* EDUCATION SECTION */
@@ -255,13 +254,13 @@
 
 /* sección Hard & Soft Skills */
 .skills{
-    margin-top: 0%;    
+    margin-top: 12%;    
 }/* sección Hard & Soft Skills */
 
 /* texto skills section skills */
 .textoSkills{
-    text-align: left;
-    margin-top: 10rem;   
+    text-align: right; 
+    margin-left: 1%;  
 }/* texto skills section skills */
 
 /* SECCION SKILLS */
@@ -271,20 +270,19 @@
 
 /* section projects */
 .projects{
-margin-top: 10%;
+margin-top: 8%;
 }/* section projects */
 
 
 /* text projects */
 .textProjects{   
-    text-align: left; 
+    text-align: right; 
     margin-top: 12%;    
 }/* text projects */
 
 .textDescription{
-    text-align: left; 
-    margin-top: 8%;
-    margin-left: 5.3%;     
+    margin-top: 20%;
+    text-align: left;     
 }
 
 /* image gallery */
