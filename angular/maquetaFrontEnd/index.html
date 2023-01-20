@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PorfolioWeb</title>
-   
+       
 
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -18,10 +18,13 @@
 
   <!-- graphics style sheet, skills -->
   <link rel="stylesheet" href="/angular/maquetaFrontEnd/assents/css/grafico_styles.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
 </head>
 
-<body class="bg-black container-fluid">
+<body class="bg-black contenedor">
+
 
 <!--NAVBAR SECTION -->
   <nav class="navbar navbar-expand-lg bg-black" id="navbar-section">
@@ -53,16 +56,18 @@
 <!--BANNER SECTION-->
   <section class="container-fluid" id="section-Banner">
 
-    <div class="banner">
-    </div>
+    <div class="sectionBanner">
+      <div class="banner">
+      </div>
 
 <!-- Pencil edit image banner modal -->
-    <div class="">
-      <button type="button" class="btn pencilEditImgBanner" data-bs-toggle="modal" data-bs-target="#pencilEditImgBanerModal">
-        <i class="fa-solid fa-pencil text-white"></i>
-      </button>
-    </div>
+        <div class="pencilEditImgBanner">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#pencilEditImgBanerModal">
+          <i class="fa-solid fa-pencil text-white"></i>
+          </button>
+        </div>
 <!-- Pencil edit image banner modal -->
+    </div>
 
 <!--baner text -->
     <div class="">
@@ -132,13 +137,13 @@
 <!--EXPERIENCE SECTION -->
   <section class="container-fluid experience row" id="experience-section">    
     
-    <div class="col-4">
+    <div class="col-lg-3 col-md-4 col-sm-1">
       <h1 class="experienceText text-white">
         Experiencia
       </h1>     
     </div>    
 
-    <div class="col-3">
+    <div class="col-lg-3 col-md-3 col-sm-1">
 <!--Button logo ntn24 modal -->
       <div class="logoNtn24">
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#logoNtn24Modal">
@@ -148,24 +153,33 @@
 <!--Button logo ntn24 modal -->
     </div>
     
-    <div class="col-5"> 
+    <div class="col-lg-4 col-md-4 col-sm-1">
+
       <div class="webEditorText text-white">        
-      <h4>Redactor Web</h4>
-      <h5>Portal Web de Noticias NTN24</h5>
-    </div>  
+        <h4>Redactor Web</h4>
+        <h5>Portal Web de Noticias NTN24</h5>
+      </div> 
+    </div> 
+
+    <div class="col-lg-2 col-md-1 col-sm-1">        
 
 <!-- pencil edit text company modal -->
-    <button type="button" class="btn pencilEditTextCompanyModal" data-bs-toggle="modal" data-bs-target="#pencilEditTextCompanyModal">
-      <i class="fa-solid fa-pencil text-white"></i>
-    </button>
+    <div class="text-center">
+      <button type="button" class="btn pencilEditTextCompanyModal" data-bs-toggle="modal" data-bs-target="#pencilEditTextCompanyModal">
+        <i class="fa-solid fa-pencil text-white"></i>
+      </button>
+    </div>
 <!-- pencil edit text company modal-->
 <!-- xmark experience section modal -->
+   <div class="text-center">
       <button type="button" class="btn xMarkExperienceSection" data-bs-toggle="modal" data-bs-target="#xMarkExperienceSectionModal">
         <i class="fa-lg fa-solid fa-xmark text-white"></i>
       </button>
+    </div>
 <!-- xmark experience section modal -->
 
-    </div>     
+    </div>
+
   </section>
 <!-- EXPERIENCE SECTION -->
 
@@ -263,10 +277,10 @@
   </h1>
 </div>
   
-    <div class="col-lg-3 col-md-6 col-sm-12">
+    <div class="col-lg-3 col-md-6 col-sm-12 ">
 
 <!-- gráfico circular nivel ingles-->
-    <div>     
+    <div class="">     
         <h3 class="title_grafico">
           Nivel Ingles
         </h3>
@@ -300,7 +314,7 @@
     </div>
 <!-- gráfico circular nivel JS-->
 
-  </div>
+    </div>
 
     <div class="col-lg-3 col-md-6 col-sm-12">
 
@@ -344,6 +358,7 @@
       </div>
 <!-- gráfico circular CSS-->
     </div>
+    
 </section>
 <!-- SKILLS SECTION -->
 

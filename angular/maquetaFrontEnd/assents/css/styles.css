@@ -1,3 +1,7 @@
+.contenedor{
+    width: 100%;
+}
+
 /* SECTION NAVBAR */
 
 /* network background */
@@ -33,11 +37,15 @@
 
 /* SECTION BANER */
 
-/* pencil edit baner img */
-.pencilEditImgBanner{
-    margin-top: -70%;    
-    padding-left: 79rem;
+.sectionBanner{
+    width: 100%;
+    box-sizing: border-box;
+}
 
+/* pencil edit baner img */
+.pencilEditImgBanner{  
+    float: right; 
+    margin-top: -35%;
 }/* pencil edit baner img */
 
 /* img banner */
@@ -48,6 +56,7 @@
     margin: auto;
     background-image: url(/angular/maquetaFrontEnd/assents/img/fotoBaner1.jpeg);
     background-size: 100%;
+    background-repeat: no-repeat;
     margin-top: -7%;
     
 }/* img banner */
@@ -68,7 +77,8 @@
 
 /* presentation sectio */
 .presentation{
-    padding-top: 11%
+    width: 100%;   
+    box-sizing: border-box;
 }/* presentation sectio */
 
 /* text presentation section */
@@ -120,27 +130,23 @@
 
 /* experience section */
 .experience{
-      padding-top: 7rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 7rem;
 }/* experience section */
 
 /* experience text */
 .experienceText{
     text-align: right;
-    margin-top: -1rem;    
+    margin-right: -9%;    
 }/* experience text */
-
-/* xmark experience section modal */
-.xMarkExperienceSection{ 
-    float: right;
-    margin-top: -18.5%;
-    margin-right: 4%;      
-}/* xmark experience section modal */
 
 /* logo Ntn24  */
 .logoNtn24{    
     width: 78%; 
     margin-top: -7%;
-    margin-left: 39%    
+    float: right; 
+    margin-right: -15%;  
 }/* logo Ntn24  */
 
 /* img logo Ntn24 */
@@ -148,25 +154,13 @@
     width: 100%;
 }/* img logo Ntn24 */
 
-/* pencil edit logo Ntn24 */
-.pencilEditLogoNtn24{     
-    margin-top: -62%; 
-    margin-left: 114%; 
-}/* pencil edit logo Ntn24 */
-
 /* web editor text */
 .webEditorText{ 
-    text-align: right;   
-    margin-top: -3%;     
-    margin-right: 16%;
+    text-align: right; 
+    margin-right: -7%;    
+
 }/* web editor text */
 
-/* pencil edit text company modal */
-.pencilEditTextCompanyModal{ 
-    float: right;     
-    margin-right: 3rem;
-    margin-top: -6rem;       
-}/* pencil edit text company modal */
 
 /* EXPERIENCE SECTION */
 
@@ -176,6 +170,8 @@
 /* EDUCATION SECTION */
 
 .education{
+    width: 100%;
+    box-sizing: border-box;
     margin-top: 6%;
 }
 
@@ -194,17 +190,8 @@
 .logoSeProgramar{
     width: 80%;    
     float: right;
+    margin-right: -13%;
 }/* logo se-programar */
-
-/* pencil edit section education */
-.pencilEditEducationSection{     
-    
-}/* pencil edit  section education  */
-
-/* xmark education section */
-.xMarkEducationSection{
-    
-}/* xmark education section */
 
 /* image logo university of quindio */
 .imgLogoUniversity{
@@ -216,22 +203,23 @@
 /* logo university of quindio */
 .logoUniversity{
     width: 40%;
-    margin-top: 36%;
+    margin-top: 35%;
     float: right;
+    margin-right: -6%;
     
+        
 }/* logo university of quindio */
 
 /* texto certificate se-programar */
 .SeProgramarText{
-    text-align: right;    
-}/* texto certificate se-programar */
+    text-align: right; 
+    margin-right: -7%;  }/* texto certificate se-programar */
 
 /* text university */
 .comunicatorText{
     margin-top: 32%;
     text-align: right;
-    
-    
+    margin-right: -7%;    
 }/* text university */
 
 /* pencil edit education text2 */
@@ -240,11 +228,6 @@
     
 }/* pencil edit education text2 */
 
-/* xmark2 education section */
-.xMark2EducationSection{
-     
-
-}/* xmark2 education section */
 
 /* EDUCATION SECTION */
 
@@ -253,9 +236,13 @@
 /* SECCIÓN SKILLS */
 
 /* sección Hard & Soft Skills */
-.skills{
-    margin-top: 12%;    
+.skills{   
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10%;
+    margin-right: -15%;  
 }/* sección Hard & Soft Skills */
+
 
 /* texto skills section skills */
 .textoSkills{
@@ -270,7 +257,9 @@
 
 /* section projects */
 .projects{
-margin-top: 8%;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 8%;
 }/* section projects */
 
 
