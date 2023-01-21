@@ -1,6 +1,8 @@
+/* responsive container */
 .contenedor{
     width: 100%;
-}
+}/* responsive container */
+
 
 /* SECTION NAVBAR */
 
@@ -35,12 +37,14 @@
 
 
 
-/* SECTION BANER */
+/* SECTION BANNER */
 
+/* container section banner  */
 .sectionBanner{
     width: 100%;
     box-sizing: border-box;
-}
+    margin-left: 1%   
+}/* container section banner  */
 
 /* pencil edit baner img */
 .pencilEditImgBanner{  
@@ -49,27 +53,25 @@
 }/* pencil edit baner img */
 
 /* img banner */
-.banner{
-    width: 100%;
-    height: 550px;
-    border: 3px solid black;
-    margin: auto;
+.banner{    
+    height: 550px;    
     background-image: url(/angular/maquetaFrontEnd/assents/img/fotoBaner1.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-top: -7%;
-    
+    margin-top: -7%;    
 }/* img banner */
 
 /* text banner */
 .intro{
+    width: 100%;
+    box-sizing: border-box;
     margin-top: -29%;
     font-size: 300%;    
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
 }/*text banner */
 
-/* SECTION BANER */
+/* SECTION BANNER */
 
 
 
@@ -82,43 +84,44 @@
 }/* presentation sectio */
 
 /* text presentation section */
-.textPresentation{        
-    margin-right: -23%;
-    margin-top: -38%;    
+.textPresentation{
+    width: 100%;
+    margin-top: 7%;
+    margin-left: -5%;   
 }/* text presentation section */
 
 /* pencil edit text presentation */
-.pencilEditPresentationtext{ 
-    margin-right: 2.5rem;         
-    margin-top: -21%;
+.pencilEditPresentationtext{     
     float: right;
+    margin-top: -22%;    
 }/* pencil edit text presentation */
 
 /* xmark presentation section */
 .xMarkPresentationSection{
-    float: right;
-    margin-right: 1%;
-    margin-top: -21%;
+    float: right; 
+    margin-top: -18%;
+
 }/* xmark presentation section */
 
 /* profile photo presentation section */
 .profilePhoto{
-    width: 25%;
-    margin-top: -10%;
-    margin-left: 3%;
+    width: 70%;
+    margin-top: -30%;
+    margin-left: 8%;    
 }/* profile photo presentation section*/
 
 /* pencil edit profile photo */
 .pencilEditProfilePhoto{
-    margin-left: 27%;
-    margin-top: -36%;
-    
+    float: right;
+    margin-right: 13%;
+    margin-top: -55%    
 }/* pencil edit profile photo */
 
 /* pencil edit profile photo text */
 .pencilEditProfilePhototext{
-    margin-left: 22%;
-    margin-top: -19%;
+    float: right;
+    margin-top: -23%;
+    margin-right: 25%;
 }/* pencil edit profile photo text */
 
 /* PRESENTATION SECTION */
@@ -169,11 +172,12 @@
 
 /* EDUCATION SECTION */
 
+/* education section */
 .education{
     width: 100%;
     box-sizing: border-box;
     margin-top: 6%;
-}
+}/* education section */
 
 /* estilo texto educación seccion educación */
 .educationText{   
@@ -243,7 +247,6 @@
     margin-right: -15%;  
 }/* sección Hard & Soft Skills */
 
-
 /* texto skills section skills */
 .textoSkills{
     text-align: right; 
@@ -262,17 +265,18 @@
     margin-top: 8%;
 }/* section projects */
 
-
 /* text projects */
 .textProjects{   
     text-align: right; 
     margin-top: 12%;    
 }/* text projects */
 
+/* text description project */
 .textDescription{
     margin-top: 20%;
     text-align: left;     
-}
+}/* text description project */
+
 
 /* image gallery */
 #galeria img{
