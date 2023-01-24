@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
   selector: 'app-navbar',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+
+  constructor(private datosPortfolio:PortfolioService) { }
+
+  ngOnInit(): void {
+    this.datosPortfolio.obtenerDatos();
+  }
 
 }
