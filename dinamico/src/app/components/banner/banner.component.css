@@ -1,0 +1,35 @@
+/* SECTION BANNER */
+
+/* container section banner  */
+.sectionBanner{
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 1%   
+}/* container section banner  */
+
+/* pencil edit baner img */
+.pencilEditImgBanner{  
+    float: right; 
+    margin-top: -35%;
+}/* pencil edit baner img */
+
+/* img banner */
+.banner{    
+    height: 550px;    
+    background-image: url(./../../../../../estatico/assets/img/fotoBaner1.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -7%;    
+}/* img banner */
+
+/* text banner */
+.intro{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: -29%;
+    font-size: 300%;    
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
+}/*text banner */
+
+/* SECTION BANNER */

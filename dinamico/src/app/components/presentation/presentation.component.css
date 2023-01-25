@@ -1,0 +1,50 @@
+/* PRESENTATION SECTION */
+
+/* presentation sectio */
+.presentation{
+    width: 100%;   
+    box-sizing: border-box;
+}/* presentation sectio */
+
+/* text presentation section */
+.textPresentation{
+    width: 100%;
+    margin-top: 7%;
+    margin-left: -5%;   
+}/* text presentation section */
+
+/* pencil edit text presentation */
+.pencilEditPresentationtext{     
+    float: right;
+    margin-top: -22%;    
+}/* pencil edit text presentation */
+
+/* xmark presentation section */
+.xMarkPresentationSection{
+    float: right; 
+    margin-top: -18%;
+
+}/* xmark presentation section */
+
+/* profile photo presentation section */
+.profilePhoto{
+    width: 70%;
+    margin-top: -30%;
+    margin-left: 8%;    
+}/* profile photo presentation section*/
+
+/* pencil edit profile photo */
+.pencilEditProfilePhoto{
+    float: right;
+    margin-right: 13%;
+    margin-top: -55%    
+}/* pencil edit profile photo */
+
+/* pencil edit profile photo text */
+.pencilEditProfilePhototext{
+    float: right;
+    margin-top: -23%;
+    margin-right: 25%;
+}/* pencil edit profile photo text */
+
+/* PRESENTATION SECTION */

@@ -1,0 +1,64 @@
+/* EDUCATION SECTION */
+
+/* education section */
+.education{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 6%;
+}/* education section */
+
+/* estilo texto educación seccion educación */
+.educationText{   
+    text-align: right; 
+   margin-right: -2%;  
+}/* estilo texto educación seccion educación */
+
+/* image logo se-programar */
+.imgLogoSeProgramar{
+    width:100%;   
+}/* image logo se-programar */
+
+/* logo se-programar */
+.logoSeProgramar{
+    width: 80%;    
+    float: right;
+    margin-right: -13%;
+}/* logo se-programar */
+
+/* image logo university of quindio */
+.imgLogoUniversity{
+    width: 100%;   
+    margin: 0%;
+    background-color: black;    
+}/* image logo university of quindio */
+
+/* logo university of quindio */
+.logoUniversity{
+    width: 40%;
+    margin-top: 35%;
+    float: right;
+    margin-right: -6%;
+    
+        
+}/* logo university of quindio */
+
+/* texto certificate se-programar */
+.SeProgramarText{
+    text-align: right; 
+    margin-right: -7%;  }/* texto certificate se-programar */
+
+/* text university */
+.comunicatorText{
+    margin-top: 32%;
+    text-align: right;
+    margin-right: -7%;    
+}/* text university */
+
+/* pencil edit education text2 */
+.pencilEditEducationtext2{
+    margin-top: 60%;   
+    
+}/* pencil edit education text2 */
+
+
+/* EDUCATION SECTION */

@@ -1,0 +1,30 @@
+/* SECTION NAVBAR */
+
+/* network background */
+.list-group{
+    --bs-list-group-bg: transparent;
+}/* network background */
+
+/* social media colors */
+.fa-2x.fa-brands.fa-github:hover{
+    --bs-text-opacity: 1;
+    color: rgb(171, 146, 3)!important;
+    margin-top: -1rem;
+}
+.fa-2x.fa-brands.fa-linkedin:hover{
+    --bs-text-opacity: 1;
+    color: rgb(171, 146, 3)!important;
+    margin-top: -1rem;
+}
+.fa-solid.fa-user.fa-2xl:hover{    
+    --bs-text-opacity: 1;
+    color: rgb(171, 146, 3)!important;
+    margin-top: -1rem;
+}/* social media colors */
+
+/* logo user */
+.logoUser{
+      padding-top: 0.6rem; 
+}/* logo user */
+
+/* SECTION NAVBAR */

@@ -1,0 +1,34 @@
+/* SECCIÓN PROYECTOS */
+
+/* section projects */
+.projects{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 8%;
+}/* section projects */
+
+/* text projects */
+.textProjects{   
+    text-align: right; 
+    margin-top: 12%;    
+}/* text projects */
+
+/* text description project */
+.textDescription{
+    margin-top: 20%;
+    text-align: left;     
+}/* text description project */
+/* image gallery */
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+#galeria.col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+#galeria img:hover{
+    border: 5px solid black;
+}/* image gallery */
+
+/* SECCIÓN PROYECTOS */

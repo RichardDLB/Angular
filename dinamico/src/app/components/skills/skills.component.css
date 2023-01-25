@@ -1,0 +1,142 @@
+/* SECCIÓN SKILLS */
+
+/* sección Hard & Soft Skills */
+.skills{   
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10%;
+    margin-right: -15%;  
+}/* sección Hard & Soft Skills */
+
+/* texto skills section skills */
+.textoSkills{
+    text-align: right; 
+    margin-left: 1%;  
+}/* texto skills section skills */
+
+
+
+/* GRAPHIC STYLING SKILLS */
+
+
+:root{
+    --color_skill: #fafbfc;
+    --color_noSkill: #a9a905;
+    --background-color: #070707;
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_grafico{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;        
+}
+
+/* title graphic ingles */
+.title_grafico{
+    margin-top: 50px;
+    text-align: center;
+    color: #ffff;
+    padding-top: 3rem;    
+}/* title graphic ingles */
+
+/* title graphic HTML5 */
+.title_grafico1{
+    margin-top: 50px;
+    margin-left: 33%;
+    color: #ffff;
+    padding-top: 3rem;
+}/* title graphic HTML5 */
+
+/* title graphic CSS */
+.title_grafico2{
+    margin-top: 50px;
+    margin-left: 33%;
+    color: #ffff;
+    padding-top: 3rem;    
+}/* title graphic CSS */
+
+/* title graphic JS */
+.title_grafico3{
+    margin-top: 50px;
+    margin-left: 33%;
+    color: #ffff;
+    padding-top: 3rem;
+}/* title graphic JS */
+
+.grafico{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: conic-gradient(var(--color_skill) 65%,
+                                     var(--color_noSkill) 35%);
+    box-shadow: 1px, 1px, 5px, 1px, #3f3f3f; 
+}
+
+.grafico1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: conic-gradient(var(--color_skill) 75%,
+                                     var(--color_noSkill) 25%);
+    box-shadow: 1px, 1px, 5px, 1px, #3f3f3f; 
+}
+
+.grafico2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: conic-gradient(var(--color_skill) 75%,
+                                     var(--color_noSkill) 25%);
+    box-shadow: 1px, 1px, 5px, 1px,  #3f3f3f; 
+}
+
+.grafico3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: conic-gradient(var(--color_skill) 50%,
+                                     var(--color_noSkill) 50%);
+    box-shadow: 1px, 1px, 5px, 1px,  #3f3f3f; 
+}
+
+.leyenda_all{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+[class="color1"]{
+    width: 15px;
+    height: 15px;
+    background-color: var(--color_skill);
+    margin-right: 8px;
+    border-radius: 3px;   
+}
+
+[class="color2"]{
+    width: 15px;
+    height: 15px;
+    background-color: var(--color_noSkill);
+    margin-right: 8px;
+    border-radius: 3px;
+}
+
+.social{
+    color: #fff;    
+    line-height: 0.5;
+    margin-top: 16px; 
+}
+
+
+/* GRAPHIC STYLING SKILLS */
+/* SECCION SKILLS */

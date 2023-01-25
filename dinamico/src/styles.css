@@ -1,0 +1,89 @@
+/* responsive container */
+.contenedor{
+    width: 100%;
+}/* responsive container */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EXPERIENCE SECTION */
+
+/* experience section */
+.experience{
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 7rem;
+}/* experience section */
+
+/* experience text */
+.experienceText{
+    text-align: right;
+    margin-right: -9%;    
+}/* experience text */
+
+/* logo Ntn24  */
+.logoNtn24{    
+    width: 78%; 
+    margin-top: -7%;
+    float: right; 
+    margin-right: -15%;  
+}/* logo Ntn24  */
+
+/* img logo Ntn24 */
+.imgLogoNtn24{
+    width: 100%;
+}/* img logo Ntn24 */
+
+/* web editor text */
+.webEditorText{ 
+    text-align: right; 
+    margin-right: -7%;    
+
+}/* web editor text */
+
+
+/* EXPERIENCE SECTION */
+
+
+
+
+
+
+
+
+
+
+
+/* SECCION FOOTER */
+
+/* footer */
+.footeralfondo{
+    margin-top: 10%;
+    text-align: center;
+}/* footer */
+
+/* SECCION FOOTER */
+
+
+/* STILOS PÁGINA LOGIN */
+
+/* espacio del formulario 100% */
+.login{
+    height: 82vh;
+}/* espacio del formulario 100% */
+
+/* espacio formulario */
+.formulariologin{
+    margin-top: 15%;
+}/* espacio formulario */
+
+/* STILOS PÁGINA LOGIN */
